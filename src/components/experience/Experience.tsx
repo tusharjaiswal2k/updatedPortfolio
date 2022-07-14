@@ -1,6 +1,10 @@
 import React from 'react'
-import { BsPatchCheckFill } from 'react-icons/bs';
+import { BsPatchCheckFill, BsFillBootstrapFill } from 'react-icons/bs';
+import { SiHtml5, SiCss3, SiTailwindcss, SiAngular, SiPhp, SiPython, SiJavascript, SiMongodb, SiMysql, SiJava } from "react-icons/si";
 import './Experience.css'
+import { RiReactjsLine } from 'react-icons/ri';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { IoLogoNodejs } from 'react-icons/io';
 
 const Experience = () => {
     return (
@@ -12,53 +16,53 @@ const Experience = () => {
 
             <div className="container experience__container">
 
-                <div className="experience__frontend">
+                <div className="experience__frontend" style={{ cursor: "none" }}>
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiHtml5 className='experience__details-icon' />
                             <div>
                                 <h4>HTML</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <TbBrandNextjs className='experience__details-icon' />
                             <div>
-                                <h4>HTML</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>Next</h4>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiCss3 className='experience__details-icon' />
                             <div>
                                 <h4>Css</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiAngular className='experience__details-icon' />
                             <div>
-                                <h4>JavaScript</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>Angular</h4>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <BsFillBootstrapFill className='experience__details-icon' />
                             <div>
                                 <h4>Bootstrap</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiTailwindcss className='experience__details-icon' />
                             <div>
                                 <h4>Tailwind</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <RiReactjsLine className='experience__details-icon' />
                             <div>
                                 <h4>React</h4>
                                 <small className='text-light'>Experienced</small>
@@ -69,56 +73,56 @@ const Experience = () => {
 
                 {/* Starting of Backend */}
 
-                <div className="experience__backend">
+                <div className="experience__backend" style={{ cursor: "none" }}>
                     <h3>Backend Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <IoLogoNodejs className='experience__details-icon' />
                             <div>
                                 <h4>Node js</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiMongodb className='experience__details-icon' />
                             <div>
                                 <h4>Mongodb</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiPhp className='experience__details-icon' />
                             <div>
                                 <h4>Php</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiMysql className='experience__details-icon' />
                             <div>
-                                <h4>My Sql</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>MySql</h4>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiPython className='experience__details-icon' />
                             <div>
                                 <h4>Python</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiJava className='experience__details-icon' />
                             <div>
                                 <h4>Java</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
+                            <SiJavascript className='experience__details-icon' />
                             <div>
-                                <h4>React</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>Javascript</h4>
+                                <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                     </div>

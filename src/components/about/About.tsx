@@ -16,28 +16,30 @@ const About = () => {
                         <img src="/me-about.jpg" alt="About image" />
                     </div>
                 </div>
-                <div className="about__content">
-                    <div className="about__cards">
-                        <article className='about__card'>
+                <div className="about__content" style={{ marginTop: "100px" }}>
+                    <div className="about__cards" >
+                        <article className='about__card' style={{ cursor: "none" }}>
                             <FaAward />
                             <h5> Experience</h5>
-                            <small>3+ Years Working</small>
+                            <small>6+ months</small>
                         </article>
-                        <article className='about__card'>
+                        <article className='about__card' style={{ cursor: "none" }}>
                             <FiUsers />
                             <h5>Clients</h5>
-                            <small>200+ clients</small>
+                            <small>2 clients</small>
                         </article>
-                        <article className='about__card'>
+                        <article className='about__card' style={{ cursor: "none" }}>
                             <VscFolderLibrary />
                             <h5>Projects</h5>
-                            <small>80+</small>
+                            <small>2</small>
                         </article>
                     </div>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error porro voluptas magnam voluptatum excepturi voluptates
-                        atque enim minima dolores incidunt! Blanditiis saepe fugit laudantium corrupti deleniti commodi sed nulla iure.
+                    <p> To explore the creative skills of my inner-self . Innovative , time and energy saving , best and less
+                        investment possibilities of work-culture in all manner to make an impressive leadership for a
+                        workaholics team. To make our peers feel proud for result oriented works and chasing to complete
+                        projects before stipulated time frame
                     </p>
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
                 </div>
             </div>
         </section>
